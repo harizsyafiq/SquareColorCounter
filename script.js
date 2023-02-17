@@ -29,6 +29,7 @@ let greenDiv = document.getElementById("green");
 
 // greenDiv.onclick = () => console.log('you clicked green')
 
+// blueDiv.onclick = () => console.log('you clicked blue')
 
 const squares = document.querySelectorAll(".colorSquare");
 // console.log(squares)
@@ -39,7 +40,7 @@ const squares = document.querySelectorAll(".colorSquare");
 
 // forEach
 
-const timesClicked = { red: 0, yellow: 0, green: 0, blue: 0 };
+const timesClicked = { red: 0, yellow: 0, green: 0 };
 squares.forEach((square) => {
   square.onclick = () => {
     timesClicked[square.value] += 1;
