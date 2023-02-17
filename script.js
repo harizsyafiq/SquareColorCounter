@@ -17,7 +17,6 @@ titleDiv.style.backgroundColor = "grey";
 let redDiv = document.getElementById("red");
 let yellowDiv = document.getElementById("yellow");
 let greenDiv = document.getElementById("green");
-let blueDiv = document.getElementById("blue");
 
 // redDiv.onclick = () => {
 //   console.log('User choose: Rock')
@@ -30,7 +29,6 @@ let blueDiv = document.getElementById("blue");
 
 // greenDiv.onclick = () => console.log('you clicked green')
 
-// blueDiv.onclick = () => console.log('you clicked blue')
 
 const squares = document.querySelectorAll(".colorSquare");
 // console.log(squares)
@@ -54,7 +52,6 @@ function clearScores() {
   timesClicked.red = 0;
   timesClicked.yellow = 0;
   timesClicked.green = 0;
-  timesClicked.blue = 0;
   squares.forEach((square) => {
     square.innerText = "";
   });
